@@ -100,12 +100,12 @@ function update_ball(ball) {
 }
 
 function draw_player(player) {
-  fill("black");
+  fill("white");
   rect(player.x, player.y, player.width, player.height);
 }
 
 function draw_ball(ball) {
-  fill("black");
+  fill("white");
   circle(ball.x, ball.y, ball.radius * 2);
 }
 
@@ -140,7 +140,7 @@ function check_game_state() {
 }
 
 function draw() {
-  background("black");
+  background(204, 204, 255);
   fill(100);
 
   textSize(32);
